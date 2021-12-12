@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cours.controller.admin.ArchiveController">
+    <children>
+        <TableView fx:id="contributionTable" layoutX="24.0" layoutY="36.0" prefHeight="263.0" prefWidth="515.0">
+            <columns>
+                <TableColumn fx:id="idContributionTab" prefWidth="29.599976539611816" sortType="DESCENDING" text="ID" />
+                <TableColumn fx:id="amountDepositTab" prefWidth="181.24795532226562" sortType="DESCENDING" text="Cумма депозита" />
+                <TableColumn fx:id="percentContributionTab" prefWidth="125.9520263671875" sortType="DESCENDING" text="Процент" />
+                <TableColumn fx:id="typeDepositTab" prefWidth="178.176025390625" sortType="DESCENDING" text="Тип депозита" />
+            </columns>
+        </TableView>
+        <Button fx:id="returnButton" layoutX="14.0" layoutY="359.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="126.0" style="-fx-background-color: #1E90FF;" text="Назад" textFill="WHITE" />
+    </children>
+</AnchorPane>

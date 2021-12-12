@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="290.0" prefWidth="300.0" style="-fx-background-color: #FFB6C1;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cours.controller.authorization.RegistrationController">
+   <children>
+      <Button fx:id="signUpButton" layoutX="33.0" layoutY="245.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="238.0" style="-fx-background-color: #32CD32;" text="Create account" textFill="WHITE" />
+      <TextField fx:id="emailField" layoutX="30.0" layoutY="144.0" prefHeight="20.0" prefWidth="238.0" promptText="Ваш Email">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="passwordField" layoutX="31.0" layoutY="196.0" prefHeight="20.0" prefWidth="238.0" promptText="Ваш пароль">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </PasswordField>
+      <Button fx:id="returnSignInButton" layoutX="345.0" layoutY="216.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: #FFFFFF;" text="Назад">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <TextField fx:id="lastNameField" layoutX="31.0" layoutY="98.0" prefHeight="20.0" prefWidth="238.0" promptText="Ваша Фамилия">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="nameField" layoutX="31.0" layoutY="50.0" prefHeight="20.0" prefWidth="238.0" promptText="Ваше имя">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </TextField>
+      <Text layoutX="76.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация" wrappingWidth="238.0">
+         <font>
+            <Font name="Times New Roman" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

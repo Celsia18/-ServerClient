@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="397.0" prefWidth="320.0" style="-fx-background-color: #FFB6C1;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cours.controller.user.AddNewContributionController">
+   <children>
+      <Text layoutX="97.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Сделать вклад">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="depositAmountField" layoutX="85.0" layoutY="86.0" promptText="Сумма вклада" />
+      <TextField fx:id="percentField" layoutX="85.0" layoutY="128.0" promptText="Процент вклада" />
+      <TextField fx:id="countYearField" layoutX="85.0" layoutY="174.0" promptText="Количество лет" />
+      <TextField fx:id="currencyField" layoutX="85.0" layoutY="217.0" promptText="Валюта вклада" />
+      <Button fx:id="addNewContributionButton" layoutX="88.0" layoutY="339.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="149.0" style="-fx-background-color: #32CD32;" text="Добавить" textFill="WHITE" />
+      <Button fx:id="returnButton" layoutX="258.0" layoutY="363.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="62.0" style="-fx-background-color: #32CD32;" text="Назад " textFill="WHITE" />
+      <TextField fx:id="returnContributionField" layoutX="86.0" layoutY="258.0" promptText="return вклад" />
+      <TextField fx:id="typeContributionField" layoutX="86.0" layoutY="301.0" promptText="Вид вклада" />
+   </children>
+</AnchorPane>
