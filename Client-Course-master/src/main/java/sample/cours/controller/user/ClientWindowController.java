@@ -172,7 +172,7 @@ public class ClientWindowController {
             }
         }
         else {
-            AlertWindows.alertWindows.alertWindowShowWarning("Вы не выбрали строку !");
+            AlertWindows.alertWindows.alertWindowShowWarning("Выберите строку !");
 
         }
     }
@@ -190,10 +190,10 @@ public class ClientWindowController {
 
             csvWriter.flush();
             csvWriter.close();
-            AlertWindows.alertWindows.alertWindowShowWarning("Документ был создан !");
+            AlertWindows.alertWindows.alertWindowShowWarning("Документ был создан!");
 
         }else{
-            AlertWindows.alertWindows.alertWindowShowWarning("У вас нету вкладов !");
+            AlertWindows.alertWindows.alertWindowShowWarning("Упс! У вас нету вкладов!");
 
         }
     }
@@ -228,7 +228,7 @@ public class ClientWindowController {
         return Client.interactionsWithServer.showContribution();
         }
         else{
-            AlertWindows.alertWindows.alertWindowShowWarning("Что-то пошло не так !");
+            AlertWindows.alertWindows.alertWindowShowWarning("Ой-Ой. Технические неполадки!");
 
             return findDataContribution();
         }
@@ -250,7 +250,7 @@ public class ClientWindowController {
 
             }
             else {
-                AlertWindows.alertWindows.alertWindowShowWarning("Вы не выбрали строку !");
+                AlertWindows.alertWindows.alertWindowShowWarning("Выберите строку !");
 
                 return "";
             }
