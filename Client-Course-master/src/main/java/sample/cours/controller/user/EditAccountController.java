@@ -68,7 +68,7 @@ public class EditAccountController {
             WindowsCreator.windowsCreator.addNewWindow("/fxml/clientWindow.fxml",returnSignInButton);
 
         }else {
-            showAlert("Аккаунт не  изменен !");
+            showAlert("Ошибочка! Аккаунт не  изменен !");
           }
         }
     private void initField()  {
