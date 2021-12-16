@@ -71,7 +71,7 @@ public class AddNewContributionController {
 
         }
         else {
-            AlertWindows.alertWindows.alertWindowShowWarning("Что то пошло не так !");
+            AlertWindows.alertWindows.alertWindowShowWarning("Ой-Ой. Технические неполадки!");
 
         }}
 
