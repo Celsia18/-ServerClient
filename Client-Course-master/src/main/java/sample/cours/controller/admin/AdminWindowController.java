@@ -192,7 +192,7 @@ public class AdminWindowController {
            statusField.setText(listUsers.get(count).getPosition());
         }
         else{
-            AlertWindows.alertWindows.alertWindowShowWarning("Вы не выбрали строку !");
+            AlertWindows.alertWindows.alertWindowShowWarning("Выберите строку !");
         }
 
 
@@ -257,7 +257,7 @@ public class AdminWindowController {
             }*/
         }
         else{
-            AlertWindows.alertWindows.alertWindowShowWarning("Вы не выбрали строку !");
+            AlertWindows.alertWindows.alertWindowShowWarning("Выберите строку !");
         }
 
     }
